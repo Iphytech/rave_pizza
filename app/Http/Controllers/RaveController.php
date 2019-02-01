@@ -16,8 +16,6 @@ class RaveController extends Controller
         return view("pizza.index");
     }
     public function initialize(Request $request) {
-        //     $id = $this->request->subaccount_id;
-        // print_r($id);
         
         //This initializes payment and redirects to the payment gateway
         //The initialize method takes the parameter of the redirect URL

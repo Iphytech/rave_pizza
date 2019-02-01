@@ -232,15 +232,15 @@
 			</div><!-- Container /- -->
 			<div class="section-padding"></div>
 		</div>
-		@php
-		$array = array(
-			array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_split_ratio' => '5','transaction_charge' => 100, 'transaction_charge_type' => 'flat' ),
-		array('id' => 'RS_1CCEB40AFBC50D0CB3ADAAF102CC974F' ,'transaction_split_ratio' => '5', 'transaction_charge' => 100, 'transaction_charge_type' => 'flat' ));
+	 @php
+		// $array = array(
+		// 	array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_split_ratio' => '5','transaction_charge' => 100, 'transaction_charge_type' => 'flat' ),
+		// array('id' => 'RS_1CCEB40AFBC50D0CB3ADAAF102CC974F' ,'transaction_split_ratio' => '5', 'transaction_charge' => 100, 'transaction_charge_type' => 'flat' ));
 
-		// $array = 
-		// 	array(array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_charge' => 100, 'transaction_charge_type' => 'flat_subaccount'));
+		$array = 
+			array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_charge' => '100', 'transaction_charge_type' => 'flat_subaccount');
 
-		@endphp
+		@endphp 
 
 		{{-- modal popup --}}
 
