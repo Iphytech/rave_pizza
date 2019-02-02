@@ -16,10 +16,15 @@ class RaveController extends Controller
         return view("pizza.index");
     }
     public function initialize(Request $request) {
+        // echo '<pre>';
+        // var_dump($request->all());
+        // echo '</pre>';
+
         
         //This initializes payment and redirects to the payment gateway
         //The initialize method takes the parameter of the redirect URL
         Rave::initialize(route('callback'));
+       
     }
     public function callback() {
         // This verifies the transaction and takes the parameter of the transaction reference

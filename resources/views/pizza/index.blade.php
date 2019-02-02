@@ -237,8 +237,16 @@
 		// 	array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_split_ratio' => '5','transaction_charge' => 100, 'transaction_charge_type' => 'flat' ),
 		// array('id' => 'RS_1CCEB40AFBC50D0CB3ADAAF102CC974F' ,'transaction_split_ratio' => '5', 'transaction_charge' => 100, 'transaction_charge_type' => 'flat' ));
 
-		$array = 
-			array('id' => 'RS_ED071C8796497315BD851F4A0B89DAC9' ,'transaction_charge' => '100', 'transaction_charge_type' => 'flat_subaccount');
+		$array = array(
+			array( 'id' => 'RS_59C474DDF8E9E0C762B8747C4C2EDB84',
+            'transaction_charge_type' => 'flat_subaccount',
+            'transaction_split_ratio' => '3',
+            'transaction_charge' => '40'),
+	array( 'id' => 'RS_1CCEB40AFBC50D0CB3ADAAF102CC974F',
+            'transaction_charge_type' => 'flat_subaccount',
+            'transaction_split_ratio' => '3',
+            'transaction_charge' => '40')
+);
 
 		@endphp 
 
